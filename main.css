@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body{
+    background-color: #51abb2;
+    
+}
+
+img {
+    width: 25%;
+    position: absolute;
+    left: 38%;
+    top: 48%;
+    -webkit-filter: drop-shadow(20px 20px 20px black);
+    filter: drop-shadow(20px 20px 20px black);
+    z-index: -1;
+
+  
+    
+    
+    
+}
+
+
+
+.container{
+   
+margin: 50px auto;
+border-radius: 5px;
+padding: 16px;
+background-color: #ffde59;
+width: 50%;
+
+box-shadow: 20px 20px 20px black;
+}
+
+input[type='text'],
+input[type='password']{
+
+    display: inline-block;
+    background: #152039;
+    border: none;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+input[type='text']:focus,
+input[type='password']:focus{
+
+    background-color: #51abb2;
+    outline: none;
+
+
+}
+
+
+
+.reg {
+    text-align: center;
+}
+
+
+
+
+
+.registerbtn {
+
+   cursor: pointer;
+   margin: 10px auto;
+   padding: 16px;
+   background-color: #152039;
+   width: 100%;
+   font-size: 25px;
+   border: none;
+   border-radius: 5px;
+   color:#ffde59 ;
+   
+
+
+}
+
+
+.registerbtn:hover {
+
+    opacity: .9;
+   
+}
