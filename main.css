@@ -38,8 +38,8 @@ body {
 }
 
 
-input[type='text'],
-input[type='password']{
+input
+{
 
     display: inline-block;
     background: #4b5663;
@@ -51,8 +51,8 @@ input[type='password']{
 
 }
 
-input[type='text']:focus,
-input[type='password']:focus{
+input:focus
+{
 
     background-color: #51abb2;
     outline: none;
@@ -75,13 +75,14 @@ input[type='password']:focus{
 
    cursor: pointer;
    margin: 10px auto;
-   padding: 16px;
-   background-color: #2ea44f;
+   padding: 16px ;
+   background-color: #2ea44f62;
    width: 100%;
    font-size: 25px;
    border: none;
    border-radius: 5px;
    color:#fff ;
+   transition: 0.7s;
    
 
 
@@ -91,5 +92,9 @@ input[type='password']:focus{
 .registerbtn:hover {
 
     opacity: .9;
+    padding: 32px;
+    background-color: #2ea44f;
+    letter-spacing: 2px;
+   
    
 }
