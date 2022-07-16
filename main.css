@@ -3,50 +3,46 @@
 
 
 *{
-    margin: 0;
+  
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-body{
-    background-color: #51abb2;
-    
+body {
+     background-image: url(photo-1519681393784-d120267933ba.avif); 
+     background-position: center;
+     background-size: cover; 
+    }
+
+.data   {
+
+    color: #fff;
+    text-align: center;
+
 }
 
-img {
-    width: 25%;
-    position: absolute;
-    left: 38%;
-    top: 48%;
-    -webkit-filter: drop-shadow(20px 20px 20px black);
-    filter: drop-shadow(20px 20px 20px black);
-    z-index: -1;
 
-  
-    
-    
-    
-}
 
 
 
 .container{
    
-margin: 50px auto;
-border-radius: 5px;
-padding: 16px;
-background-color: #ffde59;
-width: 50%;
-
-box-shadow: 20px 20px 20px black;
+    margin: 200px auto;
+    padding: 20px;
+    width: 45%;
+    backdrop-filter: blur(6px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.61);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
+
 
 input[type='text'],
 input[type='password']{
 
     display: inline-block;
-    background: #152039;
+    background: #4b5663;
     border: none;
     padding: 10px;
     margin: 5px 0 22px 0;
@@ -68,6 +64,7 @@ input[type='password']:focus{
 
 .reg {
     text-align: center;
+    color: #fff;
 }
 
 
@@ -79,12 +76,12 @@ input[type='password']:focus{
    cursor: pointer;
    margin: 10px auto;
    padding: 16px;
-   background-color: #152039;
+   background-color: #2ea44f;
    width: 100%;
    font-size: 25px;
    border: none;
    border-radius: 5px;
-   color:#ffde59 ;
+   color:#fff ;
    
 
 
